@@ -17,7 +17,7 @@ const yesBtn = document.querySelector(".btn-yes");
 const noBtn = document.querySelector(".btn-no");
 const img = document.querySelector(".img");
 
-const MAX_IMAGES = 5;
+const MAX_IMAGES = 7;
 let play = true;
 let noCount = 0;
 let noButtonSize = 1;
