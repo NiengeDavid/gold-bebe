@@ -57,6 +57,8 @@ function generateMessage(noCount) {
     "Don't do this to me 😭",
     "You're breaking my heart 💔",
     "I'm gonna cry... 😭💔",
+    "You don't mean that😭",
+    "Stoppp....!!😭💔"
   ];
   return messages[Math.min(noCount, messages.length - 1)];
 }
