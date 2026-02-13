@@ -7,6 +7,8 @@ const tontonGifs = [
   "https://media.tenor.com/U0OPHZokzkUAAAAi/what-seriously.gif",
   "https://media.tenor.com/WKXMmSk3JJsAAAAi/chubby-tonton.gif",
   "https://media.tenor.com/ZHWV13jliTAAAAAi/chubby-tonton.gif",
+  "https://media.tenor.com/ZHWV13jliTAAAAAi/chubby-tonton.gif",
+  "https://media.tenor.com/ZHWV13jliTAAAAAi/chubby-tonton.gif",
 ];
 
 const title = document.querySelector(".title");
@@ -45,7 +47,7 @@ function resizeYesButton() {
 }
 
 function shrinkNoButton() {
-  noButtonSize *= 0.90;
+  noButtonSize *= 0.9;
   noBtn.style.transform = `scale(${noButtonSize})`;
 }
 
@@ -58,7 +60,7 @@ function generateMessage(noCount) {
     "You're breaking my heart 💔",
     "I'm gonna cry... 😭💔",
     "You don't mean that😭",
-    "Stoppp....!!😭💔"
+    "Stoppp....!!😭💔",
   ];
   return messages[Math.min(noCount, messages.length - 1)];
 }
